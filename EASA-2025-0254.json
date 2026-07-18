@@ -1,0 +1,36 @@
+{
+  "ad_id": "EASA-2025-0254R1",
+  "subject": "ATA 57 – Wing – Main Landing Gear Retraction Actuator Fitting – Inspection",
+  "applicability_rules": {
+    "aircraft_models": [
+      "A320-211",
+      "A320-212",
+      "A320-214",
+      "A320-215",
+      "A320-216",
+      "A320-231",
+      "A320-232",
+      "A320-233",
+      "A321-111",
+      "A321-112",
+      "A321-131"
+    ],
+    "msn_constraints": "Group 1: A321 aeroplanes (excluding Group 2). Group 2: A321 aeroplanes with MSN 364 or MSN 385. Group 3: A320 aeroplanes where SB A320-57-1089 has not been embodied before the effective date. Group 4: A320 aeroplanes that are not Group 3.",
+    "excluded_if_modifications": [
+      {
+        "description": "Airbus modification (mod) 24591 embodied in production",
+        "type": "production_mod"
+      },
+      {
+        "description": "Airbus Service Bulletin (SB) A320-57-1089 at Revision 04 embodied in service",
+        "type": "service_bulletin"
+      },
+      {
+        "description": "Airbus mod 24977 embodied in production",
+        "type": "production_mod"
+      }
+    ],
+    "required_modifications": [],
+    "notes": "The AD defines applicability through four groups: Group 1 (A321s, excluding Group 2), Group 2 (A321s with MSN 364 or 385), Group 3 (A320s without SB A320-57-1089), and Group 4 (A320s not in Group 3)."
+  }
+}

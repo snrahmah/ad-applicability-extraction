@@ -1,0 +1,23 @@
+{
+  "ad_id": "FAA-2025-23-53",
+  "subject": "The Boeing Company: Engine-pylon structure unsafe condition",
+  "applicability_rules": {
+    "aircraft_models": [
+      "MD-11",
+      "MD-11F",
+      "MD-10-10F",
+      "MD-10-30F",
+      "DC-10-10",
+      "DC-10-10F",
+      "DC-10-15",
+      "DC-10-30",
+      "DC-10-30F (KC-10A and KDC-10)",
+      "DC-10-40",
+      "DC-10-40F"
+    ],
+    "msn_constraints": null,
+    "excluded_if_modifications": [],
+    "required_modifications": [],
+    "notes": "The AD applies to all The Boeing Company airplanes, certificated in any category, specifically the models listed in paragraphs (c)(1) through (c)(3)."
+  }
+}
